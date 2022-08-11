@@ -14,7 +14,7 @@ In the browser (needs to have `nxt.apiServerCORS=true` in your NXT config file, 
 ```html
 <script src="hbit-api.js"></script>
 <script>
-    var instance = new HBIT.API('http://127.0.0.1:7876');
+    var instance = new HBIT.API('http://127.0.0.1:11120');
 
     instance.getNextBlockGenerators().then(function(answer){
         console.log(answer);
