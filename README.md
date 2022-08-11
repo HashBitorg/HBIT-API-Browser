@@ -9,7 +9,7 @@ Plus it's created using Typescript, which should ensure the proper parameters fo
 ## Install
 
 
-In the browser (needs to have `nxt.apiServerCORS=true` in your NXT config file, otherwise you need to access it from same port and hostname):
+In the browser (needs to have `hbit.apiServerCORS=true` in your HBIT config file, otherwise you need to access it from same port and hostname):
 
 ```html
 <script src="hbit-api.js"></script>
